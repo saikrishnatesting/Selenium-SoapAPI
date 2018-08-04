@@ -1,0 +1,20 @@
+Project1:
+WSDL Link: 
+http://www.thomas-bayer.com/axis2/services/BLZService?wsdl
+
+TestData for Blz codes: 
+http://www.thebankcodes.com/blz/
+
+Project2:
+WSDL Link:
+http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso?WSDL
+
+TestData for ISO Currency Codes:
+https://www.ibm.com/support/knowledgecenter/en/SSZLC2_7.0.0/com.ibm.commerce.payments.developer.doc/refs/rpylerl2mst97.htm
+
+Project3:
+http://www.dataaccess.com/webservicesserver/numberconversion.wso?WSDL
+
+TestData:
+we need to pass number(digits) to the input request
+
