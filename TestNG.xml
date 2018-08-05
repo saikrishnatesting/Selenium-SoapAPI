@@ -1,1 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Soap API Testing" >
+  <test name="CapitalCity TestCase" >
+    <classes>
+      <class name="com.TestCases.Countryinfo.CapitalCity"/>
+
+    </classes>
+ </test>
+</suite>
