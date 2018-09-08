@@ -20,7 +20,9 @@ public class CapitalCity {
 				"   </soapenv:Body>\n" + 
 				"</soapenv:Envelope>";
 		String response = SoapConnection.GetConnection(input,CapitalCity_URL);
-		System.out.println(response);
+		//System.out.println(response);
+		String CapitalCity = SoapConnection.getCapitalCityResult(response);
+		System.out.println(CapitalCity);
 	}
 	
 	@Test(priority=2)
@@ -35,7 +37,9 @@ public class CapitalCity {
 				"   </soapenv:Body>\n" + 
 				"</soapenv:Envelope>";
 		String response = SoapConnection.GetConnection(input,CapitalCity_URL);
-		System.out.println(response);
+		//System.out.println(response);
+		String CapitalCity = SoapConnection.getCapitalCityResult(response);
+		System.out.println(CapitalCity);
 	}
 	
 	

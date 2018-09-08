@@ -29,5 +29,17 @@ public class SoapConnection {
 		return output;
 		
 	}
+	
+	public static String getCapitalCityResult(String response){
+		
+		String S1= "<m:capitalcityresult>";
+		String S2 = "</m:capitalcityresult>";
+		int S1_Result= response.toLowerCase().indexOf(S1)+S1.length();
+		int S2_Result = response.toLowerCase().indexOf(S2);
+		String Soap_Result = response.substring(S1_Result, S2_Result);
+		return Soap_Result;
+		
+		
+	}
 
 }
